@@ -1,0 +1,13 @@
+.Card {
+    padding: 30px 60px 30px 60px ;
+    margin: 0px 25px 20px 0px;
+    box-shadow: 4px 4px 4px #ccccccfb;
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    width : 18%;
+    
+}
+

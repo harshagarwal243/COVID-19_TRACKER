@@ -1,0 +1,84 @@
+.News {
+    display: inline-flex;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #cccccc;
+    border-radius: 20px;
+    width: 35%;
+    padding : 10px;
+    margin: 20px;
+    flex-direction: column;
+    background-color: white;
+    justify-content: flex-start;
+    height : 270px;
+    position: relative;
+    top : 12px;
+    overflow: auto;
+}
+
+.Article {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 3px #cccccc;
+    margin: 10px;
+    width: 95%;
+    
+}
+
+.Image {
+    float : left;
+    width : 200px; 
+    height : 150px;
+    border-radius: 20px; 
+    margin-right: 10px;
+}
+
+.Side {
+ display: inline-block;
+ height: 140px ;
+ width: 45%;
+ box-sizing: border-box;
+ margin-bottom: 15px;
+}
+
+.Readmore {
+   
+     display: block;
+     border : none;
+     background : none;
+     position: relative;
+     left: -6px;
+}
+
+.Readmore:hover{
+    font-weight: bolder;
+    color: green;
+}
+
+.Readmore:focus {
+    border: none;
+    outline: none;
+}
+
+.Content {
+    margin : 10px; 
+    line-height: 140%;
+    font-size: 120%;
+    font-weight: bolder;
+    text-align: justify;
+    display: none;
+    color :  #b300b3;
+}
+
+
+.Heading {
+    margin: 5px;
+    text-align: center;
+    margin : 5px;
+    position: sticky;
+    top: -10px;
+    z-index: 1;
+    color: red;
+    opacity: 1;
+    background : #ffffff;
+}

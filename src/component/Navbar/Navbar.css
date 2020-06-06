@@ -1,0 +1,47 @@
+.navbar {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index :3;
+}
+
+
+.navbar-1 {
+   display : inline-block;
+   width : 50px;
+   background-color: white;
+   z-index: 2;
+}
+
+.navbar-2 {
+  display : inline-block;
+  width: 96%;
+}
+
+.navbar-2 ul {
+  list-style-type: none;
+  padding: 0px;
+  display: inline-block;
+  margin : 0px 0px 0px 28%;
+}
+
+.navbar-2 ul li {
+  display: inline-block;
+  text-align: center;
+  padding : 0px 15px;
+  margin : 5px;
+  font-size: 120%;
+  box-sizing: border-box;
+}
+
+.Link {
+  color : black;
+}
+
+.Link:hover {
+  color : red !important ;
+  text-decoration: none;
+  font-size: 115%;
+}
+
+

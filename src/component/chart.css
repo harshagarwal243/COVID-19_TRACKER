@@ -1,0 +1,19 @@
+.Chart {
+    display: inline-block;
+    width : 60%;
+    margin : 20px;
+    height: 430px;
+    box-sizing: border-box;
+     background-color :  white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #cccccc;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.Inside {
+    display: inline-block;
+    width : 95%;
+    box-sizing: border-box;
+    margin : 0px auto;
+       }
